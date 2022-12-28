@@ -21,6 +21,8 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUSLISH_TOKEN }}
 
       - name: Install dependencies
         run: npm install
