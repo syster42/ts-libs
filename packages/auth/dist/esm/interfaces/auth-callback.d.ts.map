@@ -1,1 +1,0 @@
-{"version":3,"file":"auth-callback.d.ts","sourceRoot":"","sources":["../../../src/interfaces/auth-callback.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,gBAAgB,CAAC;AAE1C,MAAM,WAAW,aAAa,CAAC,CAAC;IAC9B,IAAI,OAAO,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,CAAC;CAC1B;AAED,eAAe,aAAa,CAAC"}
