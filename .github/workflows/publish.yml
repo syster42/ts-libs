@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Build and Test
+    name: Build, Test and Publish
     timeout-minutes: 15
     runs-on: self-hosted
 
@@ -21,6 +21,8 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUSLISH_TOKEN }}
 
       - name: Install dependencies
         run: npm install

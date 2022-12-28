@@ -1,4 +1,0 @@
-
-> @syster42/auth@0.0.1 lint
-> eslint --ext .ts ./
-

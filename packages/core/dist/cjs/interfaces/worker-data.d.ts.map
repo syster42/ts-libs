@@ -1,1 +1,0 @@
-{"version":3,"file":"worker-data.d.ts","sourceRoot":"","sources":["../../../src/interfaces/worker-data.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AACH,MAAM,WAAW,WAAW;IAC1B,OAAO,EAAE,OAAO,CAAC,IAAI,CAAC,CAAC;IACvB,gBAAgB,EAAE,MAAM,IAAI,CAAC;CAC9B;AAED,eAAe,WAAW,CAAC"}
