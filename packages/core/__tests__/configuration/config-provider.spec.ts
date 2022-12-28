@@ -1,7 +1,4 @@
-import {
-  ChangeSetType,
-  ConfigProvider,
-} from '../../src/index.js';
+import { ChangeSetType, ConfigProvider } from '../../src/index.js';
 
 describe('config-provider', () => {
   it('should be defined', () => {

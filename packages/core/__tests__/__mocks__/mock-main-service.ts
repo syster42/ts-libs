@@ -2,9 +2,9 @@ import { Hosted } from '../../src/index.js';
 
 @Hosted()
 export class MockMainService {
-  public startAsyncCalled: boolean = false;
+  public startAsyncCalled = false;
 
-  public stopAsyncCalled: boolean = false;
+  public stopAsyncCalled = false;
 
   public async startAsync(): Promise<void> {
     this.startAsyncCalled = true;

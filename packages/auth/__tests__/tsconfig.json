@@ -1,6 +1,4 @@
 {
-  "extends": "../tsconfig",
-  "include": [
-    "**/*",
-  ],
+  "extends": "@syster42/tsconfig/jest",
+  "include": ["**/*"]
 }

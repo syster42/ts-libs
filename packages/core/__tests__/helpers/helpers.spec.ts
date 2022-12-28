@@ -9,12 +9,14 @@ describe('helpers', () => {
     const throttle = new PromiseThrottle(2);
     const proms = [];
     for (let i = 0; i < 5; ++i) {
-      proms.push(new Promise<void>((resolve) => {
-        throttle.run(() => {
-          resolve();
-          return Promise.resolve();
-        });
-      }));
+      proms.push(
+        new Promise<void>((resolve) => {
+          throttle.run(() => {
+            resolve();
+            return Promise.resolve();
+          });
+        }),
+      );
     }
     await expect(Promise.all(proms)).resolves.toBeDefined();
   });

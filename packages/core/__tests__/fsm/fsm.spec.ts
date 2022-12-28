@@ -1,8 +1,4 @@
-import {
-  Fsm,
-  IState,
-  StateMachineError,
-} from '../../src/index.js';
+import { Fsm, IState, StateMachineError } from '../../src/index.js';
 
 describe('state machine', () => {
   it('should be defined', () => {
@@ -67,7 +63,7 @@ describe('state machine', () => {
         await machine.setState(s6.key);
       } catch (e) {
         expect(e instanceof StateMachineError).toBe(true);
-        expect(e).toStrictEqual(new StateMachineError('State doesn\'t exist'));
+        expect(e).toStrictEqual(new StateMachineError("State doesn't exist"));
       }
     });
 
@@ -83,7 +79,7 @@ describe('state machine', () => {
         await machine.setState(s2.key);
       } catch (e) {
         expect(e instanceof StateMachineError).toBe(true);
-        expect(e).toStrictEqual(new StateMachineError('Can\'t enter state from previous state'));
+        expect(e).toStrictEqual(new StateMachineError("Can't enter state from previous state"));
       }
     });
 

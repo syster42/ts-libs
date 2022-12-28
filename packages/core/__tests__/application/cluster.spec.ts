@@ -1,8 +1,5 @@
 import * as nodeCluster from 'cluster';
-import {
-  Cluster,
-  Logger,
-} from '../../src/index.js';
+import { Cluster, Logger } from '../../src/index.js';
 
 describe('cluster', () => {
   const oldEnv = process.env.SYSTERBIN_NODE_SYSTEM_MAXPROC;
@@ -61,9 +58,9 @@ describe('cluster', () => {
     await cluster.runClustered(async () => {
       if (Cluster.isPrimary) {
         const worker: nodeCluster.Worker = (nodeCluster as any).fork(process.env) as nodeCluster.Worker;
-        let shutdownResolver!: () => {};
+        let shutdownResolver!: () => void;
         const promise: Promise<void> = new Promise((res) => {
-          shutdownResolver = res as () => {};
+          shutdownResolver = res as () => void;
         });
         (cluster as any).workers.set(worker, {
           promise,

@@ -1,11 +1,4 @@
-import {
-  Container,
-  Hosted,
-  IocError,
-  RootContainerToken,
-  Singleton,
-  Transient,
-} from '../../src/index.js';
+import { Container, Hosted, IocError, RootContainerToken, Singleton, Transient } from '../../src/index.js';
 import MockHosted from '../__mocks__/mock-hosted.js';
 import MockInjectClass, { MockValueInjector } from '../__mocks__/mock-inject.js';
 import MockSingleton from '../__mocks__/mock-singleton.js';
@@ -17,7 +10,7 @@ describe('decorators', () => {
       Hosted(false)(MockHosted as any);
     } catch (e: unknown) {
       expect(e instanceof IocError).toBe(true);
-      expect(e).toStrictEqual(new IocError('Can\'t set Hosted scope, scope already set'));
+      expect(e).toStrictEqual(new IocError("Can't set Hosted scope, scope already set"));
     }
   });
 
@@ -35,7 +28,7 @@ describe('decorators', () => {
       Singleton(false)(MockSingleton as any);
     } catch (e: unknown) {
       expect(e instanceof IocError).toBe(true);
-      expect(e).toStrictEqual(new IocError('Can\'t set Singleton scope, scope already set'));
+      expect(e).toStrictEqual(new IocError("Can't set Singleton scope, scope already set"));
     }
   });
 
@@ -44,7 +37,7 @@ describe('decorators', () => {
       Transient()(MockTransient as any);
     } catch (e: unknown) {
       expect(e instanceof IocError).toBe(true);
-      expect(e).toStrictEqual(new IocError('Can\'t set Transient scope, scope already set'));
+      expect(e).toStrictEqual(new IocError("Can't set Transient scope, scope already set"));
     }
   });
 

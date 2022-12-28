@@ -1,7 +1,4 @@
-import {
-  Container,
-  Runtime,
-} from '../../src/index.js';
+import { Container, Runtime } from '../../src/index.js';
 
 describe('runtime', () => {
   const container = new Container();

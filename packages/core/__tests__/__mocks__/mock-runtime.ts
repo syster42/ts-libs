@@ -1,9 +1,9 @@
 import { Runtime } from '../../src/index.js';
 
 export class MockRuntime extends Runtime {
-  public startCalled: boolean = false;
+  public startCalled = false;
 
-  public stopCalled: boolean = false;
+  public stopCalled = false;
 
   // eslint-disable-next-line class-methods-use-this
   public cb = (): Promise<void> => Promise.resolve();

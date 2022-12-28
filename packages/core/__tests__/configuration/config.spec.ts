@@ -1,10 +1,4 @@
-import {
-  Config,
-  ConfigBuilder,
-  ConfigProvider,
-  configure,
-  isPrimitiveCtor,
-} from '../../src/index.js';
+import { Config, ConfigBuilder, ConfigProvider, configure, isPrimitiveCtor } from '../../src/index.js';
 import MockConfigSource from '../__mocks__/mock-config-source.js';
 import MockConfig from '../__mocks__/mock-config.js';
 

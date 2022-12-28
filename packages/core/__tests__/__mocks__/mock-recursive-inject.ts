@@ -3,10 +3,7 @@ import MockInvalidInject from './mock-invalid-inject.js';
 
 @Injectable()
 export class MockRecursiveInject {
-  constructor(
-    public recursive: MockInvalidInject,
-  ) {
-  }
+  constructor(public recursive: MockInvalidInject) {}
 }
 
 export default MockRecursiveInject;

@@ -1,8 +1,4 @@
-import {
-  Application,
-  Config,
-  Logger,
-} from '../../src/index.js';
+import { Application, Config, Logger } from '../../src/index.js';
 import MockConfigSource from '../__mocks__/mock-config-source.js';
 import MockMainService from '../__mocks__/mock-main-service.js';
 import MockRuntime from '../__mocks__/mock-runtime.js';

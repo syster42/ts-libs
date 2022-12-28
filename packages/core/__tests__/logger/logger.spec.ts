@@ -1,9 +1,4 @@
-import {
-  createTemplate,
-  format,
-  Logger,
-  LogLevel,
-} from '../../src/index.js';
+import { createTemplate, format, Logger, LogLevel } from '../../src/index.js';
 import MockTransport from '../__mocks__/mock-transport.js';
 
 describe('logger', () => {
@@ -85,9 +80,7 @@ describe('logger', () => {
     });
     transport.log = jest.fn(() => undefined);
     const logger = new Logger({
-      transports: [
-        transport,
-      ],
+      transports: [transport],
     });
     logger.log('test');
     expect((transport.log as any).mock.calls.length).toBe(1);
@@ -97,9 +90,7 @@ describe('logger', () => {
     const transport = new MockTransport({});
 
     const logger = new Logger({
-      transports: [
-        transport,
-      ],
+      transports: [transport],
     });
     transport.log = jest.fn(() => undefined);
     logger.log('test');

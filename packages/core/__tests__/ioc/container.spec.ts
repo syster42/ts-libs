@@ -1,14 +1,6 @@
-import {
-  Container,
-  IocError,
-  Provider,
-} from '../../src/index.js';
+import { Container, IocError, Provider } from '../../src/index.js';
 import MockConfigProvider from '../__mocks__/mock-config-provider.js';
-import {
-  mockFactoryInject,
-  MockFactoryInjectClass,
-  mockFactoryInjectToken,
-} from '../__mocks__/mock-factory-inject.js';
+import { mockFactoryInject, MockFactoryInjectClass, mockFactoryInjectToken } from '../__mocks__/mock-factory-inject.js';
 import MockInvalidInject from '../__mocks__/mock-invalid-inject.js';
 import MockRecursiveInject from '../__mocks__/mock-recursive-inject.js';
 import MockSingleton from '../__mocks__/mock-singleton.js';

@@ -1,10 +1,4 @@
-import {
-  ConfigBuilder,
-  ConfigProvider,
-  Ctor,
-  IConfigSource,
-  Injectable,
-} from '../../src/index.js';
+import { ConfigBuilder, ConfigProvider, Ctor, IConfigSource, Injectable } from '../../src/index.js';
 import MockConfigProvider from './mock-config-provider.js';
 import MockConfig from './mock-config.js';
 
