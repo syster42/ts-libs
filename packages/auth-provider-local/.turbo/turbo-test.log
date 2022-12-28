@@ -1,0 +1,18 @@
+
+> @syster42/auth-provider-local@0.0.1 test
+> jest
+
+PASS __tests__/index.ts (6.485 s)
+  replace with your own tests
+    ✓ should work (2 ms)
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        6.649 s
+Ran all test suites.

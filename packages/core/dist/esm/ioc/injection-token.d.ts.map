@@ -1,0 +1,1 @@
+{"version":3,"file":"injection-token.d.ts","sourceRoot":"","sources":["../../../src/ioc/injection-token.ts"],"names":[],"mappings":"AAAA;;;;;GAKG;AACH,qBAAa,cAAc;IACzB;;;;;OAKG;IACI,EAAE,EAAE,MAAM,CAAC;IAElB;;;;OAIG;gBACS,EAAE,EAAE,MAAM;CAGvB;AAED,eAAe,cAAc,CAAC"}

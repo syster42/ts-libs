@@ -1,0 +1,99 @@
+
+> @syster42/core@0.0.1 test
+> jest
+
+PASS __tests__/fsm/fsm.spec.ts (13.841 s)
+PASS __tests__/logger/logger.spec.ts (14.688 s)
+PASS __tests__/ioc/container.spec.ts (14.521 s)
+PASS __tests__/application/lifecycle.spec.ts (14.905 s)
+PASS __tests__/decorators/descorators.spec.ts (15.605 s)
+PASS __tests__/configuration/config-builder.spec.ts
+PASS __tests__/application/application.spec.ts (15.724 s)
+PASS __tests__/helpers/helpers.spec.ts
+PASS __tests__/configuration/config-provider.spec.ts
+PASS __tests__/configuration/config.spec.ts
+PASS __tests__/application/runtime.spec.ts
+PASS __tests__/configuration/config-source.spec.ts
+PASS __tests__/application/cluster.spec.ts (16.865 s)
+-------------------------|---------|----------|---------|---------|-------------------
+File                     | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------------|---------|----------|---------|---------|-------------------
+All files                |   99.41 |    97.74 |   98.75 |   99.69 |                   
+ src                     |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+ src/application         |     100 |      100 |     100 |     100 |                   
+  application.ts         |     100 |      100 |     100 |     100 |                   
+  cluster.ts             |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  lifecycle.ts           |     100 |      100 |     100 |     100 |                   
+  runtime.ts             |     100 |      100 |     100 |     100 |                   
+ src/configuration       |    97.4 |      100 |   88.88 |     100 |                   
+  changeset.ts           |     100 |      100 |     100 |     100 |                   
+  config-builder.ts      |     100 |      100 |     100 |     100 |                   
+  config-provider.ts     |     100 |      100 |     100 |     100 |                   
+  config.ts              |      90 |      100 |      60 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+ src/configuration/util  |   96.42 |    90.32 |     100 |   96.07 |                   
+  configure.ts           |      96 |    89.28 |     100 |   95.65 | 29-30             
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  is-primitive.ts        |     100 |      100 |     100 |     100 |                   
+ src/decorators          |     100 |      100 |     100 |     100 |                   
+  hosted.ts              |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  inject.ts              |     100 |      100 |     100 |     100 |                   
+  injectable.ts          |     100 |      100 |     100 |     100 |                   
+  parent.ts              |     100 |      100 |     100 |     100 |                   
+  root.ts                |     100 |      100 |     100 |     100 |                   
+  singleton.ts           |     100 |      100 |     100 |     100 |                   
+  transient.ts           |     100 |      100 |     100 |     100 |                   
+ src/enums               |     100 |      100 |     100 |     100 |                   
+  changeset-type.ts      |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  injection-scope.ts     |     100 |      100 |     100 |     100 |                   
+  log-level.ts           |     100 |      100 |     100 |     100 |                   
+ src/errors              |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  ioc-error.ts           |     100 |      100 |     100 |     100 |                   
+  state-machine-error.ts |     100 |      100 |     100 |     100 |                   
+ src/fsm                 |     100 |      100 |     100 |     100 |                   
+  fsm.ts                 |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+ src/helpers             |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  promise-throttle.ts    |     100 |      100 |     100 |     100 |                   
+ src/interfaces          |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+ src/ioc                 |     100 |      100 |     100 |     100 |                   
+  container.ts           |     100 |      100 |     100 |     100 |                   
+  helpers.ts             |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  injection-token.ts     |     100 |      100 |     100 |     100 |                   
+ src/ioc/tokens          |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  parent-container.ts    |     100 |      100 |     100 |     100 |                   
+  root-container.ts      |     100 |      100 |     100 |     100 |                   
+ src/logger              |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  logger.ts              |     100 |      100 |     100 |     100 |                   
+  transport.ts           |     100 |      100 |     100 |     100 |                   
+ src/logger/transports   |     100 |      100 |     100 |     100 |                   
+  console.ts             |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+ src/logger/util         |     100 |      100 |     100 |     100 |                   
+  create-template.ts     |     100 |      100 |     100 |     100 |                   
+  format.ts              |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+ src/symbols             |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+  injectable-key.ts      |     100 |      100 |     100 |     100 |                   
+  injection-key.ts       |     100 |      100 |     100 |     100 |                   
+  injection-scope.ts     |     100 |      100 |     100 |     100 |                   
+ src/types               |     100 |      100 |     100 |     100 |                   
+  index.ts               |     100 |      100 |     100 |     100 |                   
+-------------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 13 passed, 13 total
+Tests:       84 passed, 84 total
+Snapshots:   0 total
+Time:        18.57 s
+Ran all test suites.
