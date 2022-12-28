@@ -1,1 +1,0 @@
-{"version":3,"file":"factory-provider.d.ts","sourceRoot":"","sources":["../../../src/interfaces/factory-provider.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,qBAAqB,CAAC;AAC1C,OAAO,SAAS,MAAM,eAAe,CAAC;AAEtC;;;;;;GAMG;AACH,MAAM,WAAW,gBAAgB,CAAC,CAAC,CAAE,SAAQ,SAAS,CAAC,CAAC,CAAC;IACvD,OAAO,EAAE,OAAO,CAAC,CAAC,CAAC,CAAC;CACrB;AAED,eAAe,gBAAgB,CAAC"}

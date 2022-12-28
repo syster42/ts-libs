@@ -1,1 +1,0 @@
-{"version":3,"file":"promise-throttle.d.ts","sourceRoot":"","sources":["../../../src/helpers/promise-throttle.ts"],"names":[],"mappings":"AAAA,qBAAa,eAAe;IAKd,OAAO,CAAC,GAAG;IAJvB,OAAO,CAAC,OAAO,CAAS;IAExB,OAAO,CAAC,KAAK,CAAiB;gBAEV,GAAG,EAAE,MAAM;IAKlB,GAAG,CAAC,CAAC,EAAE,EAAE,EAAE,MAAM,OAAO,CAAC,CAAC,CAAC,GAAG,OAAO,CAAC,CAAC,CAAC;CA8BtD;AAED,eAAe,eAAe,CAAC"}

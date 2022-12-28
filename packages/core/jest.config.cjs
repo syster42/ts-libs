@@ -1,3 +1,3 @@
-const config = require('packages/@syster42/jest-config');
+const config = require('@syster42/jest-config');
 
 module.exports = config;
