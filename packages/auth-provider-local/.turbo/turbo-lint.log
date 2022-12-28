@@ -1,0 +1,4 @@
+
+> @syster42/auth-provider-local@0.0.1 lint
+> eslint --ext .ts ./
+

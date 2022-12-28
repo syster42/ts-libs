@@ -1,0 +1,4 @@
+{
+  "extends": "@syster42/tsconfig/jest",
+  "include": ["."]
+}

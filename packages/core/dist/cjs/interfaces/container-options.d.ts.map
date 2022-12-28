@@ -1,0 +1,1 @@
+{"version":3,"file":"container-options.d.ts","sourceRoot":"","sources":["../../../src/interfaces/container-options.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,qBAAqB,CAAC;AAE5C;;;;GAIG;AACH,MAAM,WAAW,iBAAiB;IAChC,IAAI,CAAC,EAAE,MAAM,CAAC;IACd,MAAM,CAAC,EAAE,SAAS,CAAC;CACpB;AAED,eAAe,iBAAiB,CAAC"}

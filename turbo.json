@@ -1,0 +1,52 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        "lib/**"
+      ]
+    },
+    "build:watch": {
+
+      "dependsOn": [
+        "^build:watch"
+      ],
+      "outputs": [
+        "dist/**",
+        "lib/**"
+      ],
+      "cache": false
+    },
+    "test": {
+      "dependsOn": [
+        "build"
+      ],
+      "outputs": [],
+      "inputs": [
+        "src/**/*.spec.ts",
+        "__test__/**/*.ts"
+      ]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "format": {
+      "outputs": []
+    },
+    "deploy": {
+      "dependsOn": [
+        "build",
+        "test",
+        "lint"
+      ],
+      "outputs": []
+    },
+    "cleanup": {
+      "outputs": []
+    }
+  }
+}

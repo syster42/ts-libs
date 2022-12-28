@@ -1,0 +1,18 @@
+
+> @syster42/auth@0.0.1 format
+> prettier --ignore-path .eslintignore --write "**/*.+(js|ts|json)"
+
+package.json 50ms
+src/auth.ts 199ms
+src/errors/authentication-error.ts 6ms
+src/errors/index.ts 3ms
+src/index.ts 2ms
+src/interfaces/auth-callback.ts 4ms
+src/interfaces/index.ts 3ms
+src/interfaces/provider.ts 3ms
+src/provider/index.ts 2ms
+src/provider/provider-registry.ts 36ms
+src/provider/provider.ts 5ms
+test/setup.js 14ms
+tsconfig-cjs.json 3ms
+tsconfig.json 1ms

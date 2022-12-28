@@ -1,0 +1,22 @@
+{
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "build:watch": "turbo run build:watch --parallel",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev",
+    "cleanup": "turbo run cleanup",
+    "format": "turbo run format",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "@syster42/auth",
+  "version": "0.0.1",
+  "description": "Authentication framework",
+  "files": [
+    "dist/**/*"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/esm/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "main": "./dist/cjs/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "directories": {
+    "test": "__tests__"
+  },
+  "scripts": {
+    "build": "npm run cleanup && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "build:watch": "tsc -p tsconfig.json --watch",
+    "lint": "eslint --ext .ts ./",
+    "test": "jest",
+    "format": "prettier --ignore-path .eslintignore --write \"**/*.+(js|ts|json)\"",
+    "cleanup": "rm -rf dist coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syster42/ts-libs.git"
+  },
+  "keywords": [
+    "runtime",
+    "framework"
+  ],
+  "author": "Gregor Mayr <greg@syster42.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syster42/ts-libs/issues"
+  },
+  "homepage": "https://github.com/syster42/ts-libs#readme",
+  "devDependencies": {
+    "@syster42/jest-config": "*",
+    "@syster42/tsconfig": "*",
+    "@types/node": "^18.11.18",
+    "eslint-config-syster42": "*",
+    "prettier": "^2.8.1",
+    "standard-version": "^9.5.0",
+    "typedoc": "^0.23.23",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@syster42/core": "*",
+    "reflect-metadata": "^0.1.13"
+  }
+}

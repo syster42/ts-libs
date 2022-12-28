@@ -1,0 +1,8 @@
+{
+  "extends": "@syster42/tsconfig/cjs.json",
+  "compilerOptions": {
+    "outDir": "./dist/cjs"
+  },
+  "include": ["."],
+  "exclude": ["dist/**", "__tests__/**"]
+}

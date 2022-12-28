@@ -1,0 +1,8 @@
+
+> @syster42/web-core@0.0.1 build
+> npm run cleanup && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json
+
+
+> @syster42/web-core@0.0.1 cleanup
+> rm -rf dist coverage
+
