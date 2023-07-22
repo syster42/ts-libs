@@ -1,6 +1,6 @@
 {
   "name": "@syster42/core",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Core framework",
   "files": [
     "dist/**/*"

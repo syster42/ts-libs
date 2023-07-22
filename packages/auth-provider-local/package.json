@@ -1,6 +1,6 @@
 {
   "name": "@syster42/auth-provider-local",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Authentication provider for local users",
   "files": [
     "dist/**/*"

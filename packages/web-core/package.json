@@ -1,6 +1,6 @@
 {
   "name": "@syster42/web-core",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Web Core framework",
   "files": [
     "dist/**/*"

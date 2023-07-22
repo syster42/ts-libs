@@ -6,5 +6,8 @@
     "cjs.json",
     "esm.json",
     "jest.json"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
