@@ -97,7 +97,17 @@ export class Controller {
     }
 
     const routes = this.__routeTable.get(method.toLowerCase())!;
-    const route = routes[0];
+
+    // find the route
+    const { routerPath } = ctx;
+    const tempRoutes = routes.filter((route) => routerPath.indexOf(route.route) > -1);
+    if (tempRoutes.length === 0) {
+      // if no route is found, return 406
+      return ctx.throw(406, 'Route is not supported.');
+    }
+
+    const route = tempRoutes[0];
+
     const acceptsMimeTypes = Array.from(route.accepts.keys());
     const acceptsResult = ctx.accepts(...acceptsMimeTypes);
     /* istanbul ignore next */
