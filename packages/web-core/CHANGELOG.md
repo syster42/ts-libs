@@ -1,5 +1,11 @@
 # @syster42/web-core
 
+## 0.3.0
+
+### Minor Changes
+
+- 346e158: make serialize/deserialize more typesafe
+
 ## 0.2.0
 
 ### Minor Changes
